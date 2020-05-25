@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body, form{
+    height: 100%;
+    margin: 0;
+}
+#logo{
+    height: 54px;
+}
+header, header > div{
+    min-height: 66px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #379E42;
+    color: white;
+}
+header > div > *{
+    margin: 0;
+    display: inline;
+}
+header h1{
+    margin-left: 10px;
+}
+main{
+    height: calc(100% - 66px);
+    
+}
+.dados, .transistor{
+    width: 100%;
+}
+
+.dados{
+    background: url("img/transistors-218835_1280.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.box{
+    padding: 13px 41px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+#background-transistor{
+    padding: 5px;
+    height: 100%;
+    background-color: rgba(55, 158, 65, 0.59);
+}
+.grandeza{
+    margin: 15px 0;
+}
+.grandeza *{
+    display: inline-block;
+}
+.grandeza input{
+    padding: 0 5%;
+    max-width: 50%;
+}
+.grandeza select{
+    width: 20%;
+}
+.grandeza label{
+    display: inline-block;
+    min-width: 40px;
+    width: 15%;
+    text-align: center;
+}
+@media screen and (min-width: 800px){
+    header h1{
+        margin-left: 10px;
+        margin-right: 142px;
+    }
+    .dados, .transistor{
+        height: 100%;
+        float: left;
+        width: 50%;
+    }
+    .box{
+        
+    }
+    #background-transistor{
+        padding: 41px 75px;
+    }
+    .content-box{
+        width: calc(50% - 26.5px);
+        float: left;
+        
+    }
+    .cb-left{
+        margin-right: 53px;
+    }
+    /*.transistor{
+        width: 60%;
+    }
+    .dados{
+        width: 40%;
+    }*/
+}
+@media screen and (max-width: 1480px){
+    .dados, .transistor{
+        height: 100%;
+        float: left;
+        width: 100%;
+    }
+}
+
+.transistor{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.transistor > *{
+    display: inline;
+    text-align: center;
+}
+
+#transistor{
+    width: 70%;
+}
+.btn{
+    width: 100%;
+    max-width: 252px;
+    height: 37px;
+    border: 0;
+    box-shadow: 0px 3px 6px #000000;
+    color: white;
+    font-size: 24px;
+    transition: 0.2s;
+    margin: 20px 0;
+}
+.btn-success{
+    background-color: #379E42;
+}
+.btn-success:hover{
+    background-color: rgb(45, 124, 53);
+}
+ol{
+    padding: 0;
+}
+ol > li{
+    margin-bottom: 10px;
+}

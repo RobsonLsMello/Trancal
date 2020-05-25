@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="img/logo.svg" id="logo" alt="Logo">
+            <h1>TRANCAL</h1>
+        </div>
+        <div>
+            <p>Está com dúvidas?</p>
+            <a href="#">Clique Aqui</a>
+        </div>
+        
+    </header>
+    <main>
+        <form action="" method="GET">
+            <div class="dados">
+                <div id="background-transistor">
+                    <div class="content-box cb-left">
+                        <div class="box">
+                            <h2>Outros Dados</h2>
+                            <label for="#tipo">Tipo de Exercício</label>
+                            <select id="tipo" name="tipo">
+                                <option value="0">Selecionar o Tipo</option>
+                                <option value="1">Apenas o Transistor</option>
+                                <option value="2">Base Constante</option>
+                                <option value="3">Emissor Constante</option>
+                                <option value="4">Dividor de Tensão</option>
+                            </select>
+                            <div class="grandeza">
+                                <label for="#alfa">α</label>
+                                <input type="number" id="alfa" name="alfa">
+                            </div>
+                            
+                            <div class="grandeza">
+                                <label for="#beta">β</label>
+                                <input type="number" id="beta" name="beta">
+                            </div>
+                        </div>
+                        <div class="box" id="correntes">
+                            <h2>Correntes</h2>
+                            <div class="grandeza">
+                                <label for="#i">I</label>
+                                <input type="number" id="i" name="i">
+                                <select class="unidade" name="unidade-i" id="unidade-i">
+                                    <option value="0">A</option>
+                                    <option value="-3">mA</option>
+                                    <option value="-6">µA</option>
+                                    <option value="-9">nA</option>
+                                    <option value="3">kA</option>
+                                    <option value="6">MA</option>
+                                    <option value="9">gA</option>
+                                </select>
+                            </div>
+                            <div class="grandeza">
+                                <label for="#ic">IC</label>
+                                <input type="number" id="ic" name="ic">
+                                <select class="unidade" name="unidade-ic" id="unidade-ic">
+                                    <option value="0">A</option>
+                                    <option value="-3">mA</option>
+                                    <option value="-6">µA</option>
+                                    <option value="-9">nA</option>
+                                    <option value="3">kA</option>
+                                    <option value="6">MA</option>
+                                    <option value="9">gA</option>
+                                </select>
+                            </div>
+                            <div class="grandeza">
+                                <label for="#ie">IE</label>
+                                <input type="number" id="ie" name="ie">
+                                <select class="unidade" name="unidade-ie" id="unidade-ie">
+                                    <option value="0">A</option>
+                                    <option value="-3">mA</option>
+                                    <option value="-6">µA</option>
+                                    <option value="-9">nA</option>
+                                    <option value="3">kA</option>
+                                    <option value="6">MA</option>
+                                    <option value="9">gA</option>
+                                </select>
+                            </div>
+                            <div class="grandeza">
+                                <label for="#ib">IB</label>
+                                <input type="number" id="ib" name="ib">
+                                <select class="unidade" name="unidade-ib" id="unidade-ib">
+                                    <option value="0">A</option>
+                                    <option value="-3">mA</option>
+                                    <option value="-6">µA</option>
+                                    <option value="-9">nA</option>
+                                    <option value="3">kA</option>
+                                    <option value="6">MA</option>
+                                    <option value="9">gA</option>
+                                </select>
+                            </div>
+                            <div class="grandeza">
+                                <label for="#ib1">IB1</label>
+                                <input type="number" id="ib1" name="ib1">
+                                <select class="unidade" name="unidade-ib1" id="unidade-ib1">
+                                    <option value="0">A</option>
+                                    <option value="-3">mA</option>
+                                    <option value="-6">µA</option>
+                                    <option value="-9">nA</option>
+                                    <option value="3">kA</option>
+                                    <option value="6">MA</option>
+                                    <option value="9">gA</option>
+                                </select>
+                            </div>
+                            <div class="grandeza">
+                                <label for="#ib2">IB2</label>
+                                <input type="number" id="ib2" name="ib2">
+                                <select class="unidade" name="unidade-ib2" id="unidade-ib2">
+                                    <option value="0">A</option>
+                                    <option value="-3">mA</option>
+                                    <option value="-6">µA</option>
+                                    <option value="-9">nA</option>
+                                    <option value="3">kA</option>
+                                    <option value="6">MA</option>
+                                    <option value="9">gA</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="box" id="resistencias">
+                            <h2>Resistências</h2>
+                            <div class="grandeza">
+                                <label for="#rc">RC</label>
+                                <input type="number" id="rc" name="rc">
+                                <select class="unidade" name="unidade-rc" id="unidade-rc">
+                                    <option value="0">Ω</option>
+                                    <option value="-3">mΩ</option>
+                                    <option value="-6">µΩ</option>
+                                    <option value="-9">nΩ</option>
+                                    <option value="3">kΩ</option>
+                                    <option value="6">MΩ</option>
+                                    <option value="9">gΩ</option>
+                                </select>
+                            </div>
+                            <div class="grandeza">
+                                <label for="#re">RE</label>
+                                <input type="number" id="re" name="re">
+                                <select class="unidade" name="unidade-re" id="unidade-re">
+                                    <option value="0">Ω</option>
+                                    <option value="-3">mΩ</option>
+                                    <option value="-6">µΩ</option>
+                                    <option value="-9">nΩ</option>
+                                    <option value="3">kΩ</option>
+                                    <option value="6">MΩ</option>
+                                    <option value="9">gΩ</option>
+                                </select>
+                            </div>
+                            <div class="grandeza">
+                                <label for="#rb1">RB1</label>
+                                <input type="number" id="rb1" name="rb1">
+                                <select class="unidade" name="unidade-rb1" id="unidade-rb1">
+                                    <option value="0">Ω</option>
+                                    <option value="-3">mΩ</option>
+                                    <option value="-6">µΩ</option>
+                                    <option value="-9">nΩ</option>
+                                    <option value="3">kΩ</option>
+                                    <option value="6">MΩ</option>
+                                    <option value="9">gΩ</option>
+                                </select>
+                            </div>
+                            <div class="grandeza">
+                                <label for="#rb2">RB2</label>
+                                <input type="number" id="rb2" name="rb2">
+                                <select class="unidade" name="unidade-rb2" id="unidade-rb2">
+                                    <option value="0">Ω</option>
+                                    <option value="-3">mΩ</option>
+                                    <option value="-6">µΩ</option>
+                                    <option value="-9">nΩ</option>
+                                    <option value="3">kΩ</option>
+                                    <option value="6">MΩ</option>
+                                    <option value="9">gΩ</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="box" id="tensoes">
+                            <h2>Tensões</h2>
+                            <div class="grandeza">
+                                <label for="#vcc">Vcc</label>
+                                <input type="number" id="vcc" name="vcc">
+                                <select class="unidade" name="unidade-vcc" id="unidade-vcc">
+                                    <option value="0">V</option>
+                                    <option value="-3">mV</option>
+                                    <option value="-6">µV</option>
+                                    <option value="-9">nV</option>
+                                    <option value="3">kV</option>
+                                    <option value="6">MV</option>
+                                    <option value="9">gV</option>
+                                </select>
+                            </div>
+                            <div class="grandeza">
+                                <label for="#vrc">VRC</label>
+                                <input type="number" id="vrc" name="vrc">
+                                <select class="unidade" name="unidade-vrc" id="unidade-vrc">
+                                    <option value="0">V</option>
+                                    <option value="-3">mV</option>
+                                    <option value="-6">µV</option>
+                                    <option value="-9">nV</option>
+                                    <option value="3">kV</option>
+                                    <option value="6">MV</option>
+                                    <option value="9">gV</option>
+                                </select>
+                            </div>
+                            <div class="grandeza">
+                                <label for="#vre">VRE</label>
+                                <input type="number" id="vre" name="vre">
+                                <select class="unidade" name="unidade-vre" id="unidade-vre">
+                                    <option value="0">V</option>
+                                    <option value="-3">mV</option>
+                                    <option value="-6">µV</option>
+                                    <option value="-9">nV</option>
+                                    <option value="3">kV</option>
+                                    <option value="6">MV</option>
+                                    <option value="9">gV</option>
+                                </select>
+                            </div>
+                            <div class="grandeza">
+                                <label for="#vbe">VBE</label>
+                                <input type="number" id="vbe" name="vbe">
+                                <select class="unidade" name="unidade-vbe" id="unidade-vbe">
+                                    <option value="0">V</option>
+                                    <option value="-3">mV</option>
+                                    <option value="-6">µV</option>
+                                    <option value="-9">nV</option>
+                                    <option value="3">kV</option>
+                                    <option value="6">MV</option>
+                                    <option value="9">gV</option>
+                                </select>
+                            </div>
+                            <div class="grandeza">
+                                <label for="#vrb1">VRB1</label>
+                                <input type="number" id="vrb1" name="vrb1">
+                                <select class="unidade" name="unidade-vrb1" id="unidade-vrb1">
+                                    <option value="0">V</option>
+                                    <option value="-3">mV</option>
+                                    <option value="-6">µV</option>
+                                    <option value="-9">nV</option>
+                                    <option value="3">kV</option>
+                                    <option value="6">MV</option>
+                                    <option value="9">gV</option>
+                                </select>
+                            </div>
+                            <div class="grandeza">
+                                <label for="#vrb2">VRB2</label>
+                                <input type="number" id="vrb2" name="vrb2">
+                                <select class="unidade" name="unidade-vrb2" id="unidade-vrb2">
+                                    <option value="0">V</option>
+                                    <option value="-3">mV</option>
+                                    <option value="-6">µV</option>
+                                    <option value="-9">nV</option>
+                                    <option value="3">kV</option>
+                                    <option value="6">MV</option>
+                                    <option value="9">gV</option>
+                                </select>
+                            </div>
+                            <div class="grandeza">
+                                <label for="#vce">VCE</label>
+                                <input type="number" id="vce" name="vce">
+                                <select class="unidade" name="unidade-vce" id="unidade-vce">
+                                    <option value="0">V</option>
+                                    <option value="-3">mV</option>
+                                    <option value="-6">µV</option>
+                                    <option value="-9">nV</option>
+                                    <option value="3">kV</option>
+                                    <option value="6">MV</option>
+                                    <option value="9">gV</option>
+                                </select>
+                            </div>
+                            <div class="grandeza">
+                                <label for="#vcb">VCB</label>
+                                <input type="number" id="vcb" name="vcb">
+                                <select class="unidade" name="unidade-vcb" id="unidade-vcb">
+                                    <option value="0">V</option>
+                                    <option value="-3">mV</option>
+                                    <option value="-6">µV</option>
+                                    <option value="-9">nV</option>
+                                    <option value="3">kV</option>
+                                    <option value="6">MV</option>
+                                    <option value="9">gV</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="box" id="formulas">
+                            <h2>Passo a Passo</h2>
+                            <ol id="formulario">
+
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="transistor">
+                <div>
+                    <img src="img/tp1_01.svg" alt="" id="transistor"><br>
+                    <button type="button" class="btn btn-success" id="calcular"> Calcular</button>
+                </div>
+                
+            </div>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+    <div>
+        <!--tutorial-->
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
