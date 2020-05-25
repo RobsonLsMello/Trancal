@@ -1,0 +1,1220 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="658" height="651" viewBox="0 0 658 651">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="4" height="268" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="4" height="256" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="4" height="556" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect width="4" height="292" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect width="4" height="220" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <rect width="4" height="272" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-8">
+      <rect width="4" height="180" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_31" data-name="Grupo 31" transform="translate(-5122 682)">
+    <path id="União_17" data-name="União 17" d="M267.492,138.673l-16.519-4.283,6.056-6.056-26.207-25.894V122.4H226.34V75.9H0V71.474H226.34V29.4h4.482V44.174L275.8-.271l3.169,3.131L231.16,50.1l-.337-.334v46.7l.146-.144,29.211,28.863,6.452-6.452,4.471,17.244,7.4,7.317-3.169,3.131Z" transform="translate(5125.108 -399.187)"/>
+    <path id="União_18" data-name="União 18" d="M0,221V0H4V221Z" transform="translate(5400 -617)"/>
+    <path id="União_19" data-name="União 19" d="M0,223V0H4V223Z" transform="translate(5400 -256)"/>
+    <path id="União_21" data-name="União 21" d="M0,295.7V0H4V295.7Z" transform="translate(5122 -619)"/>
+    <rect id="Retângulo_80" data-name="Retângulo 80" width="93" height="4" transform="translate(5635.5 -325)"/>
+    <rect id="Retângulo_81" data-name="Retângulo 81" width="93" height="4" transform="translate(5635.5 -365)"/>
+    <rect id="Retângulo_82" data-name="Retângulo 82" width="72" height="4" transform="translate(5646.5 -345)"/>
+    <rect id="Retângulo_83" data-name="Retângulo 83" width="72" height="5" transform="translate(5646.5 -306)"/>
+    <rect id="Retângulo_84" data-name="Retângulo 84" width="4" height="253" transform="translate(5680 -618)"/>
+    <rect id="Retângulo_85" data-name="Retângulo 85" width="4" height="268" transform="translate(5680 -301)"/>
+    <rect id="Retângulo_86" data-name="Retângulo 86" width="4" height="284" transform="translate(5684 -35) rotate(90)"/>
+    <rect id="Retângulo_87" data-name="Retângulo 87" width="4" height="562" transform="translate(5684 -622) rotate(90)"/>
+    <path id="União_22" data-name="União 22" d="M0,140v-3.566H.449c36.92,0,66.956-29.8,66.956-66.433A65.912,65.912,0,0,0,49.344,24.659l-5.569,5.525-3.553-13.6A66.95,66.95,0,0,0,.449,3.567H0V0H.449A70.58,70.58,0,0,1,27.911,5.5,70.729,70.729,0,0,1,39.9,11.955q1.522,1.02,2.992,2.121l13.6,3.5-4.577,4.541a70.625,70.625,0,0,1,7.043,8.749,69.825,69.825,0,0,1,6.5,11.89,69.734,69.734,0,0,1,0,54.494,69.885,69.885,0,0,1-6.5,11.891,70.564,70.564,0,0,1-8.616,10.36A70.979,70.979,0,0,1,39.9,128.045,70.778,70.778,0,0,1,27.911,134.5,70.587,70.587,0,0,1,.449,140Z" transform="translate(5415 -395)"/>
+    <g id="Grupo_29" data-name="Grupo 29" transform="translate(3977 -885)">
+      <path id="Subtração_5" data-name="Subtração 5" d="M87,87h-4.4c0-.185,0-.366,0-.551A82.138,82.138,0,0,0,.55,4.4l-.55,0V0L.27,0H.55A85.889,85.889,0,0,1,34.2,6.794a86.47,86.47,0,0,1,14.685,7.97A87.064,87.064,0,0,1,61.679,25.321,86.993,86.993,0,0,1,72.236,38.115,86.343,86.343,0,0,1,80.207,52.8,85.907,85.907,0,0,1,87,86.449q0,.275,0,.55Z" transform="translate(1401 669) rotate(180)"/>
+      <path id="Polígono_3" data-name="Polígono 3" d="M11.071,0,22.143,18.821H0Z" transform="translate(1307.032 605.985) rotate(-19)"/>
+    </g>
+    <text id="VBE" transform="translate(5290 -206)" fill="#707070" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">VBE</tspan></text>
+    <text id="Vcc" transform="translate(5747 -321)" fill="#707070" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Vcc</tspan></text>
+    <path id="União_23" data-name="União 23" d="M0,18.822H9.114V56.761h4.428V18.822h8.6L11.071,0Z" transform="translate(5318.194 -356.905) rotate(90)"/>
+    <path id="União_24" data-name="União 24" d="M0,37.939H9.114V0h4.428V37.939h8.6L11.071,56.761Z" transform="translate(5371.743 -456.143)"/>
+    <path id="União_25" data-name="União 25" d="M0,37.939H9.114V0h4.428V37.939h8.6L11.071,56.761Z" transform="translate(5408.279 -236.929)"/>
+    <path id="União_26" data-name="União 26" d="M0,37.939H9.114V0h4.428V37.939h8.6L11.071,56.761Z" transform="translate(5476.516 -654.727) rotate(90)"/>
+    <text id="VCE" transform="translate(5497 -317)" fill="#707070" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">VCE</tspan></text>
+    <text id="IE" transform="translate(5435 -206)" fill="#707070" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">IE</tspan></text>
+    <text id="IB" transform="translate(5268 -362)" fill="#707070" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">IB</tspan></text>
+    <text id="IC" transform="translate(5344 -421)" fill="#707070" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">IC</tspan></text>
+    <text id="I" transform="translate(5444 -658)" fill="#707070" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">I</tspan></text>
+    <g id="Grupo_30" data-name="Grupo 30" transform="translate(5919.516 -1777.516) rotate(90)">
+      <path id="Subtração_5-2" data-name="Subtração 5" d="M87,87h-4.4c0-.185,0-.366,0-.551A82.138,82.138,0,0,0,.55,4.4l-.55,0V0L.27,0H.55A85.889,85.889,0,0,1,34.2,6.794a86.47,86.47,0,0,1,14.685,7.97A87.064,87.064,0,0,1,61.679,25.321,86.993,86.993,0,0,1,72.236,38.115,86.343,86.343,0,0,1,80.207,52.8,85.907,85.907,0,0,1,87,86.449q0,.275,0,.55Z" transform="translate(1401 669) rotate(180)"/>
+      <path id="Polígono_3-2" data-name="Polígono 3" d="M11.071,0,22.143,18.821H0Z" transform="translate(1307.032 605.985) rotate(-19)"/>
+    </g>
+    <text id="VCB" transform="translate(5227 -446)" fill="#707070" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">VCB</tspan></text>
+    <g id="Repetição_de_grade_9" data-name="Repetição de grade 9" transform="translate(5680 -299)" clip-path="url(#clip-path)">
+      <g transform="translate(-1703 -773)">
+        <path id="Caminho_9" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -765)">
+        <path id="Caminho_9-2" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-2" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -757)">
+        <path id="Caminho_9-3" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-3" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -749)">
+        <path id="Caminho_9-4" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-4" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -741)">
+        <path id="Caminho_9-5" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-5" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -733)">
+        <path id="Caminho_9-6" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-6" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -725)">
+        <path id="Caminho_9-7" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-7" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -717)">
+        <path id="Caminho_9-8" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-8" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -709)">
+        <path id="Caminho_9-9" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-9" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -701)">
+        <path id="Caminho_9-10" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-10" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -693)">
+        <path id="Caminho_9-11" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-11" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -685)">
+        <path id="Caminho_9-12" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-12" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -677)">
+        <path id="Caminho_9-13" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-13" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -669)">
+        <path id="Caminho_9-14" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-14" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -661)">
+        <path id="Caminho_9-15" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-15" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -653)">
+        <path id="Caminho_9-16" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-16" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -645)">
+        <path id="Caminho_9-17" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-17" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -637)">
+        <path id="Caminho_9-18" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-18" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -629)">
+        <path id="Caminho_9-19" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-19" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -621)">
+        <path id="Caminho_9-20" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-20" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -613)">
+        <path id="Caminho_9-21" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-21" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -605)">
+        <path id="Caminho_9-22" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-22" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -597)">
+        <path id="Caminho_9-23" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-23" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -589)">
+        <path id="Caminho_9-24" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-24" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -581)">
+        <path id="Caminho_9-25" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-25" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -573)">
+        <path id="Caminho_9-26" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-26" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -565)">
+        <path id="Caminho_9-27" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-27" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -557)">
+        <path id="Caminho_9-28" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-28" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -549)">
+        <path id="Caminho_9-29" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-29" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -541)">
+        <path id="Caminho_9-30" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-30" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -533)">
+        <path id="Caminho_9-31" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-31" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -525)">
+        <path id="Caminho_9-32" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-32" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -517)">
+        <path id="Caminho_9-33" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-33" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -509)">
+        <path id="Caminho_9-34" data-name="Caminho 9" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-34" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+    </g>
+    <g id="Repetição_de_grade_10" data-name="Repetição de grade 10" transform="translate(5680 -622)" clip-path="url(#clip-path-2)">
+      <g transform="translate(-1703 -773)">
+        <path id="Polígono_16" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-35" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -765)">
+        <path id="Polígono_16-2" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-36" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -757)">
+        <path id="Polígono_16-3" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-37" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -749)">
+        <path id="Polígono_16-4" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-38" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -741)">
+        <path id="Polígono_16-5" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-39" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -733)">
+        <path id="Polígono_16-6" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-40" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -725)">
+        <path id="Polígono_16-7" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-41" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -717)">
+        <path id="Polígono_16-8" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-42" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -709)">
+        <path id="Polígono_16-9" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-43" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -701)">
+        <path id="Polígono_16-10" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-44" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -693)">
+        <path id="Polígono_16-11" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-45" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -685)">
+        <path id="Polígono_16-12" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-46" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -677)">
+        <path id="Polígono_16-13" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-47" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -669)">
+        <path id="Polígono_16-14" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-48" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -661)">
+        <path id="Polígono_16-15" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-49" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -653)">
+        <path id="Polígono_16-16" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-50" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -645)">
+        <path id="Polígono_16-17" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-51" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -637)">
+        <path id="Polígono_16-18" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-52" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -629)">
+        <path id="Polígono_16-19" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-53" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -621)">
+        <path id="Polígono_16-20" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-54" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -613)">
+        <path id="Polígono_16-21" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-55" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -605)">
+        <path id="Polígono_16-22" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-56" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -597)">
+        <path id="Polígono_16-23" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-57" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -589)">
+        <path id="Polígono_16-24" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-58" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -581)">
+        <path id="Polígono_16-25" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-59" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -573)">
+        <path id="Polígono_16-26" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-60" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -565)">
+        <path id="Polígono_16-27" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-61" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -557)">
+        <path id="Polígono_16-28" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-62" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -549)">
+        <path id="Polígono_16-29" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-63" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -541)">
+        <path id="Polígono_16-30" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-64" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -533)">
+        <path id="Polígono_16-31" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-65" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -525)">
+        <path id="Polígono_16-32" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-66" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+    </g>
+    <g id="Repetição_de_grade_11" data-name="Repetição de grade 11" transform="translate(5122 -618) rotate(-90)" clip-path="url(#clip-path-3)">
+      <g transform="translate(-1703 -773)">
+        <path id="Polígono_16-33" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-67" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -765)">
+        <path id="Polígono_16-34" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-68" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -757)">
+        <path id="Polígono_16-35" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-69" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -749)">
+        <path id="Polígono_16-36" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-70" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -741)">
+        <path id="Polígono_16-37" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-71" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -733)">
+        <path id="Polígono_16-38" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-72" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -725)">
+        <path id="Polígono_16-39" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-73" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -717)">
+        <path id="Polígono_16-40" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-74" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -709)">
+        <path id="Polígono_16-41" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-75" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -701)">
+        <path id="Polígono_16-42" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-76" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -693)">
+        <path id="Polígono_16-43" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-77" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -685)">
+        <path id="Polígono_16-44" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-78" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -677)">
+        <path id="Polígono_16-45" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-79" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -669)">
+        <path id="Polígono_16-46" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-80" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -661)">
+        <path id="Polígono_16-47" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-81" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -653)">
+        <path id="Polígono_16-48" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-82" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -645)">
+        <path id="Polígono_16-49" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-83" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -637)">
+        <path id="Polígono_16-50" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-84" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -629)">
+        <path id="Polígono_16-51" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-85" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -621)">
+        <path id="Polígono_16-52" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-86" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -613)">
+        <path id="Polígono_16-53" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-87" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -605)">
+        <path id="Polígono_16-54" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-88" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -597)">
+        <path id="Polígono_16-55" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-89" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -589)">
+        <path id="Polígono_16-56" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-90" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -581)">
+        <path id="Polígono_16-57" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-91" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -573)">
+        <path id="Polígono_16-58" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-92" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -565)">
+        <path id="Polígono_16-59" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-93" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -557)">
+        <path id="Polígono_16-60" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-94" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -549)">
+        <path id="Polígono_16-61" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-95" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -541)">
+        <path id="Polígono_16-62" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-96" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -533)">
+        <path id="Polígono_16-63" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-97" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -525)">
+        <path id="Polígono_16-64" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-98" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -517)">
+        <path id="Polígono_16-65" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-99" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -509)">
+        <path id="Polígono_16-66" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-100" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -501)">
+        <path id="Polígono_16-67" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-101" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -493)">
+        <path id="Polígono_16-68" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-102" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -485)">
+        <path id="Polígono_16-69" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-103" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -477)">
+        <path id="Polígono_16-70" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-104" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -469)">
+        <path id="Polígono_16-71" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-105" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -461)">
+        <path id="Polígono_16-72" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-106" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -453)">
+        <path id="Polígono_16-73" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-107" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -445)">
+        <path id="Polígono_16-74" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-108" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -437)">
+        <path id="Polígono_16-75" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-109" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -429)">
+        <path id="Polígono_16-76" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-110" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -421)">
+        <path id="Polígono_16-77" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-111" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -413)">
+        <path id="Polígono_16-78" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-112" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -405)">
+        <path id="Polígono_16-79" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-113" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -397)">
+        <path id="Polígono_16-80" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-114" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -389)">
+        <path id="Polígono_16-81" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-115" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -381)">
+        <path id="Polígono_16-82" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-116" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -373)">
+        <path id="Polígono_16-83" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-117" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -365)">
+        <path id="Polígono_16-84" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-118" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -357)">
+        <path id="Polígono_16-85" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-119" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -349)">
+        <path id="Polígono_16-86" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-120" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -341)">
+        <path id="Polígono_16-87" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-121" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -333)">
+        <path id="Polígono_16-88" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-122" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -325)">
+        <path id="Polígono_16-89" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-123" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -317)">
+        <path id="Polígono_16-90" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-124" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -309)">
+        <path id="Polígono_16-91" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-125" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -301)">
+        <path id="Polígono_16-92" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-126" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -293)">
+        <path id="Polígono_16-93" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-127" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -285)">
+        <path id="Polígono_16-94" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-128" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -277)">
+        <path id="Polígono_16-95" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-129" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -269)">
+        <path id="Polígono_16-96" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-130" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -261)">
+        <path id="Polígono_16-97" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-131" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -253)">
+        <path id="Polígono_16-98" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-132" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -245)">
+        <path id="Polígono_16-99" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-133" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -237)">
+        <path id="Polígono_16-100" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-134" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -229)">
+        <path id="Polígono_16-101" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-135" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -221)">
+        <path id="Polígono_16-102" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-136" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+    </g>
+    <g id="Repetição_de_grade_12" data-name="Repetição de grade 12" transform="translate(5126 -324) rotate(180)" clip-path="url(#clip-path-4)">
+      <g transform="translate(-1703 -773)">
+        <path id="Polígono_16-103" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-137" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -765)">
+        <path id="Polígono_16-104" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-138" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -757)">
+        <path id="Polígono_16-105" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-139" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -749)">
+        <path id="Polígono_16-106" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-140" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -741)">
+        <path id="Polígono_16-107" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-141" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -733)">
+        <path id="Polígono_16-108" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-142" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -725)">
+        <path id="Polígono_16-109" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-143" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -717)">
+        <path id="Polígono_16-110" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-144" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -709)">
+        <path id="Polígono_16-111" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-145" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -701)">
+        <path id="Polígono_16-112" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-146" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -693)">
+        <path id="Polígono_16-113" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-147" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -685)">
+        <path id="Polígono_16-114" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-148" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -677)">
+        <path id="Polígono_16-115" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-149" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -669)">
+        <path id="Polígono_16-116" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-150" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -661)">
+        <path id="Polígono_16-117" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-151" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -653)">
+        <path id="Polígono_16-118" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-152" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -645)">
+        <path id="Polígono_16-119" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-153" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -637)">
+        <path id="Polígono_16-120" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-154" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -629)">
+        <path id="Polígono_16-121" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-155" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -621)">
+        <path id="Polígono_16-122" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-156" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -613)">
+        <path id="Polígono_16-123" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-157" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -605)">
+        <path id="Polígono_16-124" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-158" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -597)">
+        <path id="Polígono_16-125" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-159" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -589)">
+        <path id="Polígono_16-126" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-160" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -581)">
+        <path id="Polígono_16-127" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-161" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -573)">
+        <path id="Polígono_16-128" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-162" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -565)">
+        <path id="Polígono_16-129" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-163" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -557)">
+        <path id="Polígono_16-130" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-164" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -549)">
+        <path id="Polígono_16-131" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-165" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -541)">
+        <path id="Polígono_16-132" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-166" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -533)">
+        <path id="Polígono_16-133" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-167" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -525)">
+        <path id="Polígono_16-134" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-168" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -517)">
+        <path id="Polígono_16-135" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-169" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -509)">
+        <path id="Polígono_16-136" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-170" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -501)">
+        <path id="Polígono_16-137" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-171" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -493)">
+        <path id="Polígono_16-138" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-172" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -485)">
+        <path id="Polígono_16-139" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-173" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+    </g>
+    <g id="Repetição_de_grade_13" data-name="Repetição de grade 13" transform="translate(5404 -398) rotate(180)" clip-path="url(#clip-path-5)">
+      <g transform="translate(-1703 -773)">
+        <path id="Polígono_16-140" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-174" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -765)">
+        <path id="Polígono_16-141" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-175" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -757)">
+        <path id="Polígono_16-142" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-176" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -749)">
+        <path id="Polígono_16-143" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-177" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -741)">
+        <path id="Polígono_16-144" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-178" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -733)">
+        <path id="Polígono_16-145" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-179" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -725)">
+        <path id="Polígono_16-146" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-180" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -717)">
+        <path id="Polígono_16-147" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-181" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -709)">
+        <path id="Polígono_16-148" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-182" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -701)">
+        <path id="Polígono_16-149" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-183" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -693)">
+        <path id="Polígono_16-150" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-184" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -685)">
+        <path id="Polígono_16-151" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-185" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -677)">
+        <path id="Polígono_16-152" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-186" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -669)">
+        <path id="Polígono_16-153" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-187" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -661)">
+        <path id="Polígono_16-154" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-188" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -653)">
+        <path id="Polígono_16-155" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-189" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -645)">
+        <path id="Polígono_16-156" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-190" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -637)">
+        <path id="Polígono_16-157" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-191" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -629)">
+        <path id="Polígono_16-158" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-192" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -621)">
+        <path id="Polígono_16-159" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-193" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -613)">
+        <path id="Polígono_16-160" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-194" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -605)">
+        <path id="Polígono_16-161" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-195" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -597)">
+        <path id="Polígono_16-162" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-196" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -589)">
+        <path id="Polígono_16-163" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-197" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -581)">
+        <path id="Polígono_16-164" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-198" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -573)">
+        <path id="Polígono_16-165" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-199" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -565)">
+        <path id="Polígono_16-166" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-200" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -557)">
+        <path id="Polígono_16-167" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-201" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+    </g>
+    <g id="Repetição_de_grade_14" data-name="Repetição de grade 14" transform="translate(5404 -32) rotate(180)" clip-path="url(#clip-path-5)">
+      <g transform="translate(-1703 -773)">
+        <path id="Polígono_16-168" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-202" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -765)">
+        <path id="Polígono_16-169" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-203" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -757)">
+        <path id="Polígono_16-170" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-204" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -749)">
+        <path id="Polígono_16-171" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-205" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -741)">
+        <path id="Polígono_16-172" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-206" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -733)">
+        <path id="Polígono_16-173" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-207" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -725)">
+        <path id="Polígono_16-174" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-208" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -717)">
+        <path id="Polígono_16-175" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-209" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -709)">
+        <path id="Polígono_16-176" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-210" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -701)">
+        <path id="Polígono_16-177" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-211" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -693)">
+        <path id="Polígono_16-178" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-212" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -685)">
+        <path id="Polígono_16-179" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-213" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -677)">
+        <path id="Polígono_16-180" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-214" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -669)">
+        <path id="Polígono_16-181" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-215" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -661)">
+        <path id="Polígono_16-182" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-216" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -653)">
+        <path id="Polígono_16-183" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-217" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -645)">
+        <path id="Polígono_16-184" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-218" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -637)">
+        <path id="Polígono_16-185" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-219" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -629)">
+        <path id="Polígono_16-186" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-220" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -621)">
+        <path id="Polígono_16-187" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-221" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -613)">
+        <path id="Polígono_16-188" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-222" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -605)">
+        <path id="Polígono_16-189" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-223" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -597)">
+        <path id="Polígono_16-190" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-224" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -589)">
+        <path id="Polígono_16-191" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-225" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -581)">
+        <path id="Polígono_16-192" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-226" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -573)">
+        <path id="Polígono_16-193" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-227" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -565)">
+        <path id="Polígono_16-194" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-228" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -557)">
+        <path id="Polígono_16-195" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-229" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+    </g>
+    <g id="Repetição_de_grade_15" data-name="Repetição de grade 15" transform="translate(5677 -35) rotate(90)" clip-path="url(#clip-path-7)">
+      <g transform="translate(-1703 -773)">
+        <path id="Polígono_16-196" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-230" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -765)">
+        <path id="Polígono_16-197" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-231" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -757)">
+        <path id="Polígono_16-198" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-232" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -749)">
+        <path id="Polígono_16-199" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-233" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -741)">
+        <path id="Polígono_16-200" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-234" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -733)">
+        <path id="Polígono_16-201" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-235" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -725)">
+        <path id="Polígono_16-202" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-236" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -717)">
+        <path id="Polígono_16-203" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-237" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -709)">
+        <path id="Polígono_16-204" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-238" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -701)">
+        <path id="Polígono_16-205" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-239" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -693)">
+        <path id="Polígono_16-206" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-240" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -685)">
+        <path id="Polígono_16-207" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-241" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -677)">
+        <path id="Polígono_16-208" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-242" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -669)">
+        <path id="Polígono_16-209" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-243" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -661)">
+        <path id="Polígono_16-210" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-244" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -653)">
+        <path id="Polígono_16-211" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-245" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -645)">
+        <path id="Polígono_16-212" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-246" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -637)">
+        <path id="Polígono_16-213" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-247" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -629)">
+        <path id="Polígono_16-214" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-248" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -621)">
+        <path id="Polígono_16-215" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-249" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -613)">
+        <path id="Polígono_16-216" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-250" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -605)">
+        <path id="Polígono_16-217" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-251" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -597)">
+        <path id="Polígono_16-218" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-252" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -589)">
+        <path id="Polígono_16-219" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-253" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -581)">
+        <path id="Polígono_16-220" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-254" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -573)">
+        <path id="Polígono_16-221" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-255" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -565)">
+        <path id="Polígono_16-222" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-256" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -557)">
+        <path id="Polígono_16-223" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-257" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -549)">
+        <path id="Polígono_16-224" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-258" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -541)">
+        <path id="Polígono_16-225" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-259" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -533)">
+        <path id="Polígono_16-226" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-260" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -525)">
+        <path id="Polígono_16-227" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-261" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -517)">
+        <path id="Polígono_16-228" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-262" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -509)">
+        <path id="Polígono_16-229" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-263" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+    </g>
+    <g id="Repetição_de_grade_16" data-name="Repetição de grade 16" transform="translate(5308 -327.5) rotate(90)" clip-path="url(#clip-path-8)">
+      <g transform="translate(-1703 -773)">
+        <path id="Polígono_16-230" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-264" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -765)">
+        <path id="Polígono_16-231" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-265" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -757)">
+        <path id="Polígono_16-232" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-266" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -749)">
+        <path id="Polígono_16-233" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-267" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -741)">
+        <path id="Polígono_16-234" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-268" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -733)">
+        <path id="Polígono_16-235" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-269" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -725)">
+        <path id="Polígono_16-236" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-270" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -717)">
+        <path id="Polígono_16-237" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-271" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -709)">
+        <path id="Polígono_16-238" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-272" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -701)">
+        <path id="Polígono_16-239" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-273" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -693)">
+        <path id="Polígono_16-240" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-274" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -685)">
+        <path id="Polígono_16-241" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-275" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -677)">
+        <path id="Polígono_16-242" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-276" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -669)">
+        <path id="Polígono_16-243" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-277" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -661)">
+        <path id="Polígono_16-244" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-278" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -653)">
+        <path id="Polígono_16-245" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-279" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -645)">
+        <path id="Polígono_16-246" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-280" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -637)">
+        <path id="Polígono_16-247" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-281" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -629)">
+        <path id="Polígono_16-248" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-282" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -621)">
+        <path id="Polígono_16-249" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-283" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -613)">
+        <path id="Polígono_16-250" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-284" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -605)">
+        <path id="Polígono_16-251" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-285" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+      <g transform="translate(-1703 -597)">
+        <path id="Polígono_16-252" data-name="Polígono 16" d="M2,0,4,4H0Z" transform="translate(1703 777)" fill="#52d557"/>
+        <path id="Polígono_17-286" data-name="Polígono 17" d="M2,0,4,4H0Z" transform="translate(1703 773)" fill="#d1d552"/>
+      </g>
+    </g>
+  </g>
+</svg>
