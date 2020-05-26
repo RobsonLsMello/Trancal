@@ -1,4 +1,3 @@
-
 class  AnimationController{
     keyframe = 0;
     conjuntoFrameAtual = 0;
@@ -354,7 +353,7 @@ var calcular = () =>{
         }
         if(correntes.Ib1.modulo == 0 && outrosDados.tipoExercicio.value == 4){
             let ts = [];
-            //apenas corrente e constantes   
+            //apenas corrente e constantes
             ts.push(correntes.Ic.modulo != 0 ? [correntes.I.modulo - correntes.Ic.modulo, `Ib1 = I-Ic = ${correntes.I.modulo} - ${correntes.Ic.modulo}`]: [0, ""]);
 
             ts.push(correntes.Ib.modulo != 0 && correntes.Ib2.modulo != 0 ? [correntes.Ib.modulo + correntes.Ib2.modulo , `Ib1 = Ib+Ib2 = ${correntes.Ib.modulo} + ${correntes.Ib2.modulo}`]: [0, ""]);
@@ -364,6 +363,7 @@ var calcular = () =>{
         if(correntes.Ib2.modulo == 0 && outrosDados.tipoExercicio.value == 4){
             let ts = [];
             //apenas corrente e constantes
+            ts.push([10 * correntes.Ib.modulo, `Ib2 = 10*Ib = 10*${correntes.Ib.modulo}`]);
             ts.push(correntes.Ib.modulo != 0 && correntes.Ib1.modulo != 0 ? [correntes.Ib1.modulo - correntes.Ib.modulo , `Ib2 = Ib1-Ib = ${correntes.Ib1.modulo} - ${correntes.Ib.modulo}`]: [0, ""]);
             ts.push(correntes.I.modulo != 0 && correntes.Ie.modulo != 0 ? [correntes.I.modulo - correntes.Ie.modulo , `Ib2 = I-Ie = ${correntes.I.modulo} - ${correntes.Ie.modulo}`]: [0, ""]);
             ts.push(resistores.Rb2.modulo != 0? [tensoes.Vrb2.modulo / resistores.Rb2.modulo , `Ib2 = Vrb2/Rb2 = ${tensoes.Vrb2.modulo}/${resistores.Rb2.modulo}`]: [0, ""]);
