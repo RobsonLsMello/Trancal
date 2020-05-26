@@ -2,6 +2,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+#formulas{
+    max-height: 400px;
+    overflow-y: scroll;
+}
 html,body, form{
     height: 100%;
     margin: 0;
