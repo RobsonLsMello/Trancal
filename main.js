@@ -44,19 +44,57 @@ var tensoes = {};
 var resistores = {};
 
 var grandeza = [
-    "Vcc", "Vrc", "Vbe", "Vrb1", "Vrb2", "Vce", "Vcb", "Vre", "I", "Ic", "Ib", "Ie", "Ib1", "Ib2", "Rc", "Re", "Rb1", "Rb2"
+    "Vcc", "Vrc", "Vbe", "Vrb1", "Vrb2", "Vce", "Vcb", "Vre", "Ic", "Ib", "Ie", "Ib1", "Ib2", "I", "Rc", "Re", "Rb1", "Rb2", "alfa", "beta"
 ]
+var regexpGrandeza = () =>{
+    return new RegExp(JSON.stringify(grandeza).split(",").join("|").split("]").join(")+").split("[").join("(").split("\"").join(""));
+}
+/**
+ * 
+ * @param {HTMLElement} elemento 
+ */
+var realizarExpressao = (elemento) =>{
+    let expressao = elemento.value;
+    let expressaoPura = elemento.value;
+    grandeza.forEach(item =>{        
+        try {
+            let variavel = expressao.match(regexpGrandeza())[0];
+            switch(variavel[0]){
+                case 'R':
+                    expressao = expressao.split(variavel).join(resistores[variavel].modulo);
+                break;
+                case 'V':
+                    expressao = expressao.split(variavel).join(tensoes[variavel].modulo);
+                break;
+                case 'I':
+                    expressao = expressao.split(variavel).join(correntes[variavel].modulo);
+                break;
+                case 'alfa':
+                case 'beta':
+                    expressao = expressao.split(variavel).join(outrosDados[variavel].modulo);
+                break;
+            }
+        } catch (error) {
 
+        }   
+    })
+    let resultado = Number(eval(expressao).toFixed(9));
+    document.querySelector("#formulario").innerHTML += `<li>${elemento.id} = ${expressaoPura} = ${expressao} = ${resultado}</li>`;
+    elemento.value = resultado;
+    return resultado;
+}
 var coletarDados = () =>{
     outrosDados = {
         tipoExercicio: document.querySelector("#tipo"),
         alfa: {
             element: document.querySelector("#alfa"),
-            modulo: Number(document.querySelector("#alfa").value)
+            modulo: Number(document.querySelector("#alfa").value),
+            exp: document.querySelector("#alfa").value
         },
         beta: {
             element: document.querySelector("#beta"),
-            modulo: Number(document.querySelector("#beta").value)
+            modulo: Number(document.querySelector("#beta").value),
+            exp: document.querySelector("#beta").value
         },
     }
     
@@ -64,42 +102,50 @@ var coletarDados = () =>{
         Vcc:{
             element: document.querySelector("#vcc"),
             modulo: Number(document.querySelector("#vcc").value),
-            unidade: Number(document.querySelector("#unidade-vcc").value)
+            unidade: Number(document.querySelector("#unidade-vcc").value),
+            exp: document.querySelector("#vcc").value
         },
         Vrc: {
             element: document.querySelector("#vrc"),
             modulo: Number(document.querySelector("#vrc").value),
-            unidade: Number(document.querySelector("#unidade-vrc").value)
+            unidade: Number(document.querySelector("#unidade-vrc").value),
+            exp: document.querySelector("#vrc").value
         },
         Vbe: {
             element: document.querySelector("#vbe"),
             modulo: Number(document.querySelector("#vbe").value),
-            unidade: Number(document.querySelector("#unidade-vbe").value)
+            unidade: Number(document.querySelector("#unidade-vbe").value),
+            exp: document.querySelector("#vbe").value
         },
         Vrb1: {
             element: document.querySelector("#vrb1"),
             modulo: Number(document.querySelector("#vrb1").value),
-            unidade: Number(document.querySelector("#unidade-vrb1").value)
+            unidade: Number(document.querySelector("#unidade-vrb1").value),
+            exp: document.querySelector("#vrb1").value
         },
         Vrb2: {
             element: document.querySelector("#vrb2"),
             modulo: Number(document.querySelector("#vrb2").value),
-            unidade: Number(document.querySelector("#unidade-vrb2").value)
+            unidade: Number(document.querySelector("#unidade-vrb2").value),
+            exp: document.querySelector("#vrb2").value
         },
         Vce: {
             element: document.querySelector("#vce"),
             modulo: Number(document.querySelector("#vce").value),
-            unidade: Number(document.querySelector("#unidade-vce").value)
+            unidade: Number(document.querySelector("#unidade-vce").value),
+            exp: document.querySelector("#vce").value
         },
         Vcb: {
             element: document.querySelector("#vcb"),
             modulo: Number(document.querySelector("#vcb").value),
-            unidade: Number(document.querySelector("#unidade-vcb").value)
+            unidade: Number(document.querySelector("#unidade-vcb").value),
+            exp: document.querySelector("#vcb").value
         },
         Vre: {
             element: document.querySelector("#vre"),
             modulo: Number(document.querySelector("#vre").value),
-            unidade: Number(document.querySelector("#unidade-vre").value)
+            unidade: Number(document.querySelector("#unidade-vre").value),
+            exp: document.querySelector("#vre").value
         },
     }
     
@@ -107,32 +153,38 @@ var coletarDados = () =>{
         I: {
             element: document.querySelector("#i"),
             modulo: Number(document.querySelector("#i").value),
-            unidade: Number(document.querySelector("#unidade-i").value)
+            unidade: Number(document.querySelector("#unidade-i").value),
+            exp: document.querySelector("#i").value
         },
         Ic: {
             element: document.querySelector("#ic"),
             modulo: Number(document.querySelector("#ic").value),
-            unidade: Number(document.querySelector("#unidade-ic").value)
+            unidade: Number(document.querySelector("#unidade-ic").value),
+            exp: document.querySelector("#ic").value
         },
         Ie: {
             element: document.querySelector("#ie"),
             modulo: Number(document.querySelector("#ie").value),
-            unidade: Number(document.querySelector("#unidade-ie").value)
+            unidade: Number(document.querySelector("#unidade-ie").value),
+            exp: document.querySelector("#ie").value
         },
         Ib: {
             element: document.querySelector("#ib"),
             modulo: Number(document.querySelector("#ib").value),
-            unidade: Number(document.querySelector("#unidade-ib").value)
+            unidade: Number(document.querySelector("#unidade-ib").value),
+            exp: document.querySelector("#ib").value
         },
         Ib1: {
             element: document.querySelector("#ib1"),
             modulo: Number(document.querySelector("#ib1").value),
-            unidade: Number(document.querySelector("#unidade-ib1").value)
+            unidade: Number(document.querySelector("#unidade-ib1").value),
+            exp: document.querySelector("#ib1").value
         },
         Ib2: {
             element: document.querySelector("#ib2"),
             modulo: Number(document.querySelector("#ib2").value),
-            unidade: Number(document.querySelector("#unidade-ib2").value)
+            unidade: Number(document.querySelector("#unidade-ib2").value),
+            exp: document.querySelector("#ib2").value
         },
     }
     
@@ -140,22 +192,26 @@ var coletarDados = () =>{
         Rc: {
             element: document.querySelector("#rc"),
             modulo: Number(document.querySelector("#rc").value),
-            unidade: Number(document.querySelector("#unidade-rc").value)
+            unidade: Number(document.querySelector("#unidade-rc").value),
+            exp: document.querySelector("#rc").value
         },
         Re:{
             element: document.querySelector("#re"),
             modulo: Number(document.querySelector("#re").value),
-            unidade: Number(document.querySelector("#unidade-re").value)
+            unidade: Number(document.querySelector("#unidade-re").value),
+            exp: document.querySelector("#re").value
         },
         Rb1: {
             element: document.querySelector("#rb1"),
             modulo: Number(document.querySelector("#rb1").value),
-            unidade: Number(document.querySelector("#unidade-rb1").value)
+            unidade: Number(document.querySelector("#unidade-rb1").value),
+            exp: document.querySelector("#rb1").value
         },
         Rb2: {
             element: document.querySelector("#rb2"),
             modulo: Number(document.querySelector("#rb2").value),
-            unidade: Number(document.querySelector("#unidade-rb2").value)
+            unidade: Number(document.querySelector("#unidade-rb2").value),
+            exp: document.querySelector("#rb2").value
         },
     }
 }
@@ -163,6 +219,21 @@ var coletarDados = () =>{
 var animaTransistor = new AnimationController(document.querySelector("#transistor"), transistorFrames);
 var tipoExercicio = 0;
 
+var usarExpressoes = (input) =>{
+    var grandezas = document.getElementsByClassName("grandeza");
+    for(key in grandezas){
+        if(key < 19){
+            let grandeza = grandezas[key].children[1];
+            //console.log(grandeza);
+            //console.log(input.checked);
+            if(input.checked)
+                grandeza.type = "text";
+            else
+                grandeza.type = "number";
+        }
+        
+    }
+}
 
 var corrigirInput = (input) =>{
     let id = input.id.split("-")[1];
@@ -312,7 +383,7 @@ var verificarTentativas = (tentativas, elemento) =>{
     
     for(key in tentativas){
         if(tentativas[key][0] > 0){
-            elemento.value = tentativas[key][0].toFixed(9);
+            elemento.value = Number(tentativas[key][0].toFixed(9));
             document.querySelector("#formulario").innerHTML += `<li>${tentativas[key][1]} = ${tentativas[key][0].toFixed(9)}</li>`;
             return tentativas[key][0];
         }
@@ -329,11 +400,17 @@ var calcular = () =>{
             ts.push(correntes.Ib.modulo != 0 ? [correntes.Ic.modulo/correntes.Ib.modulo , `α = Ic/Ib = ${correntes.Ic.modulo}/${correntes.Ib.modulo}`]: [0, ""]);
             outrosDados.alfa.modulo = verificarTentativas(ts, outrosDados.alfa.element);
         }
+        else if(isNaN(outrosDados.alfa.modulo)){
+            outrosDados.alfa.modulo = realizarExpressao(outrosDados.alfa.element);
+        }
         if(outrosDados.beta.modulo == 0){
             let ts = [];
             ts.push([outrosDados.alfa.modulo/(1 - outrosDados.alfa.modulo), `β = α/(1-α) = ${outrosDados.alfa.modulo}/(1 - ${outrosDados.alfa.modulo})`]);
             ts.push(correntes.Ie.modulo != 0 ? [correntes.Ic.modulo/correntes.Ie.modulo , `β = Ic/Ie = ${correntes.Ic.modulo}/${correntes.Ie.modulo}`]: [0, ""]);
             outrosDados.beta.modulo = verificarTentativas(ts, outrosDados.beta.element);
+        }
+        else if(isNaN(outrosDados.beta.modulo)){
+            outrosDados.beta.modulo = realizarExpressao(outrosDados.beta.element);
         }
         if(correntes.Ib.modulo == 0){
             let ts = [];
@@ -351,6 +428,9 @@ var calcular = () =>{
             }          
             correntes.Ib.modulo = verificarTentativas(ts, correntes.Ib.element);
         }
+        else if(isNaN(correntes.Ib.modulo)){
+            correntes.Ib.modulo = realizarExpressao(correntes.Ib.element);
+        }
         if(correntes.Ib1.modulo == 0 && outrosDados.tipoExercicio.value == 4){
             let ts = [];
             //apenas corrente e constantes
@@ -360,6 +440,9 @@ var calcular = () =>{
             ts.push(resistores.Rb1.modulo != 0? [tensoes.Vrb1.modulo / resistores.Rb1.modulo , `Ib1 = Vrb1/Rb1 = ${tensoes.Vrb1.modulo}/${resistores.Rb1.modulo}`]: [0, ""]);
             correntes.Ib1.modulo = verificarTentativas(ts, correntes.Ib1.element);
         }
+        else if(isNaN(correntes.Ib1.modulo)){
+            correntes.Ib1.modulo = realizarExpressao(correntes.Ib1.element);
+        }
         if(correntes.Ib2.modulo == 0 && outrosDados.tipoExercicio.value == 4){
             let ts = [];
             //apenas corrente e constantes
@@ -368,6 +451,9 @@ var calcular = () =>{
             ts.push(correntes.I.modulo != 0 && correntes.Ie.modulo != 0 ? [correntes.I.modulo - correntes.Ie.modulo , `Ib2 = I-Ie = ${correntes.I.modulo} - ${correntes.Ie.modulo}`]: [0, ""]);
             ts.push(resistores.Rb2.modulo != 0? [tensoes.Vrb2.modulo / resistores.Rb2.modulo , `Ib2 = Vrb2/Rb2 = ${tensoes.Vrb2.modulo}/${resistores.Rb2.modulo}`]: [0, ""]);
             correntes.Ib2.modulo = verificarTentativas(ts, correntes.Ib2.element);
+        }
+        else if(isNaN(correntes.Ib2.modulo)){
+            correntes.Ib2.modulo = realizarExpressao(correntes.Ib2.element);
         }
         if(correntes.Ic.modulo == 0){
             let ts = [];
@@ -384,6 +470,9 @@ var calcular = () =>{
                 ts.push(resistores.Rc.modulo != 0? [tensoes.Vrc.modulo / resistores.Rc.modulo , `Ic = Vrc/Rc = ${tensoes.Vrc.modulo}/${resistores.Rc.modulo}`]: [0, ""]);
             correntes.Ic.modulo = verificarTentativas(ts, correntes.Ic.element);
         }
+        else if(isNaN(correntes.Ic.modulo)){
+            correntes.Ic.modulo = realizarExpressao(correntes.Ic.element);
+        }
         if(correntes.Ie.modulo == 0){
             let ts = [];
             //apenas corrente e constantes
@@ -391,12 +480,15 @@ var calcular = () =>{
                 ts.push([correntes.I.modulo, `Ie = I = ${correntes.I.modulo}`]);
             else
                 ts.push(correntes.I.modulo != 0 && correntes.Ib2.modulo != 0 ? [correntes.I.modulo - correntes.Ib2.modulo , `Ie = I-Ib2 = ${correntes.I.modulo} - ${correntes.Ib2.modulo}`]: [0, ""]);
-            ts.push([correntes.Ic.modulo + correntes.Ib.modulo, `Ie = Ic+Ib = ${correntes.Ic.modulo} - ${correntes.Ib.modulo}`]);
+            ts.push(correntes.Ic.modulo!= 0 && correntes.Ib.modulo!= 0 ?[correntes.Ic.modulo + correntes.Ib.modulo, `Ie = Ic+Ib = ${correntes.Ic.modulo} + ${correntes.Ib.modulo}`]:0);
             ts.push(outrosDados.alfa.modulo != 0 ? [correntes.Ic.modulo/outrosDados.alfa.modulo, `Ie = Ic/α = ${correntes.Ic.modulo}/${outrosDados.alfa.modulo}`]: [0, ""]);
             //tensoes e resistencias
             if(outrosDados.tipoExercicio.value > 1)
                 ts.push(resistores.Re.modulo != 0? [tensoes.Vre.modulo / resistores.Re.modulo , `Ie = Vre/Re = ${tensoes.Vre.modulo}/${resistores.Re.modulo}`]: [0, ""]);
             correntes.Ie.modulo = verificarTentativas(ts, correntes.Ie.element);
+        }
+        else if(isNaN(correntes.Ie.modulo)){
+            correntes.Ie.modulo = realizarExpressao(correntes.Ie.element);
         }
         if(correntes.I.modulo == 0){
             let ts = [];
@@ -410,6 +502,9 @@ var calcular = () =>{
             }
             correntes.I.modulo = verificarTentativas(ts, correntes.I.element);
         }
+        else if(isNaN(correntes.I.modulo)){
+            correntes.I.modulo = realizarExpressao(correntes.I.element);
+        }
         //tensoes
         if(tensoes.Vrc.modulo == 0 && outrosDados.tipoExercicio.value > 1){
             let ts = [];
@@ -417,6 +512,9 @@ var calcular = () =>{
             if(tensoes.Vce.modulo != 0 && ((tensoes.Vre.modulo != 0 && outrosDados.tipoExercicio.value >= 3) || (outrosDados.tipoExercicio.value < 3)))
                 ts.push([tensoes.Vcc.modulo - tensoes.Vce.modulo - tensoes.Vre.modulo, `Vrc = Vcc-Vce-Vre = ${tensoes.Vcc.modulo} - ${tensoes.Vce.modulo} - ${tensoes.Vre.modulo}`]);
             tensoes.Vrc.modulo = verificarTentativas(ts, tensoes.Vrc.element);
+        }
+        else if(isNaN(tensoes.Vrc.modulo)){
+            tensoes.Vrc.modulo = realizarExpressao(tensoes.Vrc.element);
         }
         if(tensoes.Vre.modulo == 0  && outrosDados.tipoExercicio.value > 2){
             let ts = [];
@@ -426,6 +524,9 @@ var calcular = () =>{
                 `Vre = Vcc-Vce-Vrc = ${tensoes.Vcc.modulo} - ${tensoes.Vce.modulo} - ${tensoes.Vrc.modulo}`]: [0, ""]);
 
             tensoes.Vre.modulo = verificarTentativas(ts, tensoes.Vre.element);
+        }
+        else if(isNaN(tensoes.Vre.modulo)){
+            tensoes.Vre.modulo = realizarExpressao(tensoes.Vre.element);
         }
         if(tensoes.Vrb1.modulo == 0 && outrosDados.tipoExercicio.value > 1){
             let ts = [];
@@ -440,6 +541,9 @@ var calcular = () =>{
                 ts.push([tensoes.Vcc.modulo - tensoes.Vbe.modulo - tensoes.Vre.modulo, `Vrb1 = Vcc-Vbe-Vre = ${tensoes.Vcc.modulo} - ${tensoes.Vbe.modulo} - ${tensoes.Vre.modulo}`]);
             tensoes.Vrb1.modulo = verificarTentativas(ts, tensoes.Vrb1.element);
         }
+        else if(isNaN(tensoes.Vrb1.modulo)){
+            tensoes.Vrb1.modulo = realizarExpressao(tensoes.Vrb1.element);
+        }
         if(tensoes.Vrb2.modulo == 0 && outrosDados.tipoExercicio.value > 3){
             let ts = [];
             ts.push([resistores.Rb2.modulo * correntes.Ib2.modulo, `Vrb2 = Rb2*Ib2 = ${resistores.Rb2.modulo} * ${correntes.Ib2.modulo}`]);
@@ -451,6 +555,9 @@ var calcular = () =>{
             ts.push(tensoes.Vrb1.modulo != 0 ? [tensoes.Vcc.modulo - tensoes.Vrb1.modulo, `Vrb2 = Vcc-Vrb1 = ${tensoes.Vcc.modulo} - ${tensoes.Vrb1.modulo}`]: [0, ""]);
             tensoes.Vrb2.modulo = verificarTentativas(ts, tensoes.Vrb2.element);
         }
+        else if(isNaN(tensoes.Vrb2.modulo)){
+            tensoes.Vrb2.modulo = realizarExpressao(tensoes.Vrb2.element);
+        }
         if(tensoes.Vce.modulo == 0){
             let ts = [];
             if(
@@ -461,6 +568,9 @@ var calcular = () =>{
             ts.push(tensoes.Vcb.modulo !=0 && tensoes.Vbe.modulo != 0 ? [tensoes.Vcb.modulo  + tensoes.Vbe.modulo , `Vce = Vcb+Vbe = ${tensoes.Vcb.modulo} + ${tensoes.Vbe.modulo}`]: [0, ""]);
             tensoes.Vce.modulo = verificarTentativas(ts, tensoes.Vce.element);
         }
+        else if(isNaN(tensoes.Vce.modulo)){
+            tensoes.Vce.modulo = realizarExpressao(tensoes.Vce.element);
+        }
         if(tensoes.Vbe.modulo == 0){
             let ts = [];
             if(outrosDados.tipoExercicio.value > 1 && tensoes.Vrb1.modulo != 0 && ((outrosDados.tipoExercicio.value > 2 && tensoes.Vre.modulo != 0) || outrosDados.tipoExercicio.value < 3))
@@ -468,12 +578,18 @@ var calcular = () =>{
             ts.push(tensoes.Vcb.modulo != 0 ? [tensoes.Vce.modulo  - tensoes.Vcb.modulo, `Vbe = Vce-Vcb = ${tensoes.Vce.modulo} - ${tensoes.Vcb.modulo}`]: [0, ""]);
             tensoes.Vbe.modulo = verificarTentativas(ts, tensoes.Vbe.element);
         }
+        else if(isNaN(tensoes.Vbe.modulo)){
+            tensoes.Vbe.modulo = realizarExpressao(tensoes.Vbe.element);
+        }
         if(tensoes.Vcb.modulo == 0){
             let ts = [];
             if(outrosDados.tipoExercicio.value == 4 && tensoes.Vrc.modulo != 0 && tensoes.Vrb2.modulo != 0)
                 ts.push([tensoes.Vcc.modulo - tensoes.Vrc.modulo - tensoes.Vrb2.modulo, `Vcb =  Vcc-Vrc-Vrb2 = ${tensoes.Vcc.modulo} - ${tensoes.Vrc.modulo} - ${tensoes.Vrb2.modulo}`]);
             ts.push(tensoes.Vbe.modulo != 0 ? [tensoes.Vce.modulo  - tensoes.Vbe.modulo , `Vcb = Vce-Vbe = ${tensoes.Vce.modulo} - ${tensoes.Vbe.modulo}`]: [0, ""]);
             tensoes.Vcb.modulo = verificarTentativas(ts, tensoes.Vcb.element);
+        }
+        else if(isNaN(tensoes.Vcb.modulo)){
+            tensoes.Vcb.modulo = realizarExpressao(tensoes.Vcb.element);
         }
         if(tensoes.Vcc.modulo == 0){
             let ts = [];
@@ -494,16 +610,25 @@ var calcular = () =>{
                 ts.push([tensoes.Vrb2.modulo + tensoes.Vcb.modulo + tensoes.Vrc.modulo, `Vcc = Vcb+Vrc+Vrb2 = ${tensoes.Vcb.modulo} + ${tensoes.Vrc.modulo} + ${tensoes.Vrb2.modulo}`]);
             tensoes.Vcc.modulo = verificarTentativas(ts, tensoes.Vcc.element);
         }
+        else if(isNaN(tensoes.Vcc.modulo)){
+            tensoes.Vcc.modulo = realizarExpressao(tensoes.Vcc.element);
+        }
         //resistencias
         if(resistores.Rc.modulo == 0){
             let ts = [];
             ts.push(correntes.Ic.modulo != 0 ? [tensoes.Vrc.modulo/correntes.Ic.modulo , `Rc = Vrc/Ic = ${tensoes.Vrc.modulo}/${correntes.Ic.modulo}`]: [0, ""]);
             resistores.Rc.modulo = verificarTentativas(ts, resistores.Rc.element);
         }
+        else if(isNaN(resistores.Rc.modulo)){
+            resistores.Rc.modulo = realizarExpressao(resistores.Rc.element);
+        }
         if(resistores.Re.modulo == 0){
             let ts = [];
             ts.push(correntes.Ic.modulo != 0 ? [tensoes.Vre.modulo/correntes.Ie.modulo , `Re = Vre/Ie = ${tensoes.Vre.modulo}/${correntes.Ie.modulo}`]: [0, ""]);
             resistores.Re.modulo = verificarTentativas(ts, resistores.Re.element);
+        }
+        else if(isNaN(resistores.Re.modulo)){
+            resistores.Re.modulo = realizarExpressao(resistores.Re.element);
         }
         if(resistores.Rb1.modulo == 0){
             let ts = [];
@@ -513,10 +638,16 @@ var calcular = () =>{
                 ts.push(correntes.Ib1.modulo != 0 ? [tensoes.Vrb1.modulo/correntes.Ib1.modulo , `Rb1 = Vrb1/Ib1 = ${tensoes.Vrb1.modulo}/${correntes.Ib1.modulo}`]: [0, ""]);
             resistores.Rb1.modulo = verificarTentativas(ts, resistores.Rb1.element);
         }
+        else if(isNaN(resistores.Rb1.modulo)){
+            resistores.Rb1.modulo = realizarExpressao(resistores.Rb1.element);
+        }
         if(resistores.Rb2.modulo == 0){
             let ts = [];
             ts.push(correntes.Ib2.modulo != 0 ? [tensoes.Vrb2.modulo/correntes.Ib2.modulo , `Rb2 = Vrb2/Ib2 = ${tensoes.Vrb2.modulo}/${correntes.Ib2.modulo}`]: [0, ""]);
             resistores.Rb2.modulo = verificarTentativas(ts, resistores.Rb2.element);
+        }
+        else if(isNaN(resistores.Rb2.modulo)){
+            resistores.Rb2.modulo = realizarExpressao(resistores.Rb2.element);
         }
     }
     
@@ -547,6 +678,7 @@ setTimeout(() => {
 
 document.querySelector("#calcular").addEventListener("click", calcular);
 document.querySelector("#tipo").addEventListener("change", esconderInputs);
+document.querySelector("#modoCalculo").addEventListener("change", input => usarExpressoes(input.srcElement));
 
 for(key in document.getElementsByClassName("unidade")){
     let value = document.getElementsByClassName("unidade")[key];
