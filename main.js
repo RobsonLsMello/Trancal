@@ -854,6 +854,7 @@ var calcular = () =>{
 
 var start = () =>{
     animaTransistor.animacao(0);
+    esconderInputs();
     limparCampos();
 }
 var loop = () =>{
