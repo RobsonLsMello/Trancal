@@ -113,6 +113,19 @@ main{
         width: 40%;
     }*/
 }
+@media screen and (max-height: 848px){
+    .dados, #background-transistor{
+        min-height: 776px;
+    }
+    #calcular{
+        position: fixed;
+        left: calc(50% - 126px);
+        bottom: 30px;
+    }
+    #background-transistor{
+        height: auto;
+    }
+}
 @media screen and (max-width: 1480px){
     .dados, .transistor{
         float: left;
@@ -151,6 +164,12 @@ main{
     transition: 0.2s;
     margin: 20px 0;
 }
+.btn-danger{
+    background-color: #9E3737;
+}
+.btn-danger:hover{
+    background-color: #792c2c;
+}
 .btn-success{
     background-color: #379E42;
 }
@@ -162,4 +181,139 @@ ol{
 }
 ol > li{
     margin-bottom: 10px;
+}
+
+#ajuda{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    border: 0;
+    background-color: transparent;
+    transition: 1000ms;
+}
+
+#ajuda:hover{
+    filter: drop-shadow(1px 1px 10px white);
+}
+button:focus{
+    outline: 0;
+}
+button{
+    cursor: pointer;
+}
+.centralizar{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tutorialPadrao{
+    position: absolute;
+    top: 0;
+    background-color: rgba(78, 78, 78, 0.91);
+    min-height: 100%;
+    height: 100%;
+}
+#tutorial{
+    width: 100%;
+}
+.tutorialPadrao > div *{
+    display: inline;
+    margin: 40px  10px;
+    color: white;
+    text-align: center;
+}
+#tutorial > div img{
+    margin: 0;
+    margin-right: 10px;
+}
+#tutorial, #primeiro, #segundo, #terceiro{
+    padding: 20px;
+}
+#primeiro p,#segundo p, #terceiro p{
+    font-size: 45px;
+}
+#tutorial > div h2{
+    font-size: 68px;
+}
+#tutorial > div h3{
+    font-size: 33px;
+}
+#tutorial > div h1{
+    font-size: 55px;
+}
+#tutorial > div > div{
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+#primeiro, #segundo, #terceiro{
+    width: 50%;
+}
+#primeiro, #terceiro{
+    right: 0;
+}
+#segundo{
+    left: 0;
+}
+#primeiro img, #segundo img{
+    display: block;
+}
+#segundo img{
+    transform: rotateY(180deg);
+    position: absolute;
+    right: 0;
+}
+.tutorial50{
+    width: 50%;
+}
+.hidden{
+    z-index: -1;
+    visibility: hidden;
+}
+
+#terceiro p{
+    margin-bottom: 30px;
+}
+#segundo .btn-proximo{
+    left: 0;
+}
+
+#terceiro > div{
+    text-align: center;
+}
+.tutorialPadrao .btn-proximo{
+    margin: 0;
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    transition: 500ms;
+}
+.tutorialPadrao .btn-proximo:hover{
+    color: #379E42;
+}
+#seta45{
+    transform: rotateY(180deg) rotateZ(-45deg) translateY(50px);
+}
+#seta135{
+    transform: rotate(-45deg) translateY(50px);
+}
+#setas{
+    display: block;
+}
+.hidden #seta135, .hidden #seta45{
+    width: 0;
+}
+@media screen and (max-width: 1480px){
+    #primeiro, #segundo, #terceiro{
+        width: 100%;
+    }
+
 }

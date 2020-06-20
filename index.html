@@ -14,7 +14,7 @@
         </div>
         <div>
             <p>Está com dúvidas?</p>
-            <a href="#">Clique Aqui</a>
+            <button href="#" id="ajuda">Clique Aqui</button>
         </div>
         
     </header>
@@ -367,11 +367,65 @@
         </form>
     </main>
     <footer>
-
     </footer>
-    <div>
-        <!--tutorial-->
+    <div id="tutorial" class="centralizar tutorialPadrao">
+        <div id="inicial">
+            <div class="">
+                <h2>Bem Vindo ao </h2>
+                <img src="img/logo.svg" id="logo" alt="Logo">
+                <h1>TRANCAL</h1>
+            </div>
+            <div>
+                <h3>Deseja iniciar o tutorial?</h3>
+            </div>
+            <div class="">
+                <button type="button" class="btn btn-danger" id="pular">Pular</button>
+                <button type="button" class="btn btn-success" id="iniciarTutorial">Sim</button>
+            </div>
+        </div>
+    </div>
+    <div id="primeiro" class="centralizar tutorialPadrao hidden">
+        <div  class="">
+            <div>
+                <p>Desse Lado você coloca as grandezas que você já tem as informações.<br><br>
+    
+                    Isso mesmo, você não precisa preencher todas as  lacunas!!
+                </p>
+                <img src="img/seta.svg" title="seta" alt="seta virada para esquerda">
+                <button type="button" class="btn-proximo" id="proximo1">Próximo</button>
+            </div>
+            
+        </div>
+    </div>
+    <div id="segundo" class="centralizar tutorialPadrao hidden">
+        <div  class="">
+            <div>
+                <p>Desse lado você vê representado o circuito que você está calculando, como o nome de cada componente.
+                </p>
+                <img src="img/seta.svg" title="seta" alt="seta virada para direita">
+                <button type="button" class="btn-proximo" id="proximo2">Próximo</button>
+            </div>
+            
+        </div>
+    </div>
+    <div id="terceiro" class="centralizar tutorialPadrao hidden">
+        <div  class="">
+            <div>
+                <p>Clicando em <strong>Calcular</strong> vai pegar todas as informações que você colocou, e encontrar todas as outras que faltaram...
+                </p>
+                <div id="setas">
+                    <img src="img/seta.svg" title="seta" id="seta45" alt="seta virada para 45">
+                    <img src="img/seta.svg" title="seta" id="seta135" alt="seta virada para 135">
+                </div>
+                
+                
+                <button type="button" class="btn btn-success" id=""> Calcular</button>
+                <button type="button" class="btn-proximo" id="finalizar">Finalizar</button>
+            </div>
+            
+        </div>
     </div>
     <script src="main.js"></script>
+    <script src="script/tutorial.js"></script>
 </body>
 </html>
