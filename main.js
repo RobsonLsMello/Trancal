@@ -625,7 +625,7 @@ var identificarResolverEquacoes = () =>{
         let ts = [];
         if(outrosDados.tipoExercicio.value > 1 && tensoes.Vrb1.modulo != 0 && ((outrosDados.tipoExercicio.value > 2 && tensoes.Vre.modulo != 0) || outrosDados.tipoExercicio.value < 3))
             ts.push([tensoes.Vcc.modulo - tensoes.Vre.modulo - tensoes.Vrb1.modulo, `Vbe = Vcc-Vre-Vrb1 = ${tensoes.Vcc.modulo} - ${tensoes.Vre.modulo} - ${tensoes.Vrb1.modulo}`]);
-        ts.push(tensoes.Vcb.modulo != 0 ? [tensoes.Vce.modulo  - tensoes.Vcb.modulo, `Vbe = Vce-Vcb = ${tensoes.Vce.modulo} - ${tensoes.Vcb.modulo}`]: [0, ""]);
+        ts.push(tensoes.Vcb.modulo != 0 && tensoes.Vce.modulo != 0? [tensoes.Vce.modulo  - tensoes.Vcb.modulo, `Vbe = Vce-Vcb = ${tensoes.Vce.modulo} - ${tensoes.Vcb.modulo}`]: [0, ""]);
         tensoes.Vbe.modulo = verificarTentativas(ts, tensoes.Vbe.element);
     }
     if(tensoes.Vcb.modulo == 0){
@@ -812,6 +812,7 @@ var verificarTentativas = (tentativas, elemento) =>{
  * Executa várias vezes os identificadores e resolvedores de equação para tentar responder as incognitas
  */
 var calcular = () =>{
+    location.href = "#transistor";
     document.querySelector("#formulario").innerHTML = "";
     converterUnidades();
     //tenta refazer o processo de visualização de variaveis e equações
@@ -884,5 +885,12 @@ for(key in document.getElementsByClassName("unidade")){
             corrigirInput(input.srcElement);
         })
     }
-    
+}
+
+var inputs = document.querySelectorAll("input");
+for(let i = 1; i < inputs.length; i++){
+    console.log(inputs[i]);
+    inputs[i].addEventListener('change', () =>{
+        inputs[i].value = inputs[i].value.split(",").join("."); 
+    })
 }

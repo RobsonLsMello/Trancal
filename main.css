@@ -5,6 +5,10 @@
 #formulas{
     max-height: 400px;
     overflow-y: scroll;
+    height: 200px;
+}
+#formulas h2{
+    margin-bottom: 10px;
 }
 html,body, form{
     height: 100%;
@@ -34,7 +38,7 @@ main{
     height: calc(100% - 66px);
     
 }
-.dados, .transistor{
+.transistor{
     width: 100%;
 }
 
@@ -44,6 +48,7 @@ main{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: auto;
 }
 
 .box{
@@ -54,7 +59,7 @@ main{
 }
 #background-transistor{
     padding: 5px;
-    height: 100%;
+    height: auto;
     background-color: rgba(55, 158, 65, 0.59);
 }
 .grandeza{
@@ -91,6 +96,7 @@ main{
     }
     #background-transistor{
         padding: 41px 75px;
+        height: 100%;
     }
     .content-box{
         width: calc(50% - 26.5px);
@@ -109,9 +115,13 @@ main{
 }
 @media screen and (max-width: 1480px){
     .dados, .transistor{
-        height: 100%;
         float: left;
         width: 100%;
+    }
+    #calcular{
+        position: fixed;
+        left: calc(50% - 126px);
+        bottom: 30px;
     }
 }
 
