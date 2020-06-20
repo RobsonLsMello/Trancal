@@ -889,7 +889,6 @@ for(key in document.getElementsByClassName("unidade")){
 
 var inputs = document.querySelectorAll("input");
 for(let i = 1; i < inputs.length; i++){
-    console.log(inputs[i]);
     inputs[i].addEventListener('change', () =>{
         inputs[i].value = inputs[i].value.split(",").join("."); 
     })

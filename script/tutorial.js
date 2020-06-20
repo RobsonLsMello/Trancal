@@ -1,3 +1,13 @@
+var jaTeveTutorial = localStorage.getItem("jaTeveTutorial");
+
+if(jaTeveTutorial == "true"){
+    document.querySelector("#tutorial").classList.add("hidden");
+    
+}
+else if(jaTeveTutorial == null){
+    localStorage.setItem("jaTeveTutorial", true);
+}
+
 document.querySelector("#pular").addEventListener("click", ()=>{
     document.querySelector("#tutorial").classList.add("hidden");
 })
