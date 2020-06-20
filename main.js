@@ -50,8 +50,28 @@ var resistores = {};
 var grandeza = [
     "Vcc", "Vrc", "Vbe", "Vrb1", "Vrb2", "Vce", "Vcb", "Vre", "Ic", "Ib", "Ie", "Ib1", "Ib2", "I", "Rc", "Re", "Rb1", "Rb2", "alfa", "beta", "Pc", "Pe", "Pb1", "Pb2"
 ]
+
+var ConteudoPermitidos = [
+    '\\*', '\\/', '\\-', '\\+' , 'Math', '\\.', 'pow', '\\(','\\)', 'sqrt'
+]
+
 var regexpGrandeza = () =>{
     return new RegExp(JSON.stringify(grandeza).split(",").join("|").split("]").join(")+").split("[").join("(").split("\"").join(""));
+}
+
+var regexpValidacao = () =>{
+    let grd          = JSON.stringify(     grandeza     ).split(",").join("|").split("]").join("").split("[").join("").split("\"").join("");
+    let conteudos    = JSON.stringify(ConteudoPermitidos).split(",").join("|").split("]").join("").split("[").join("").split("\"").join("")+"|,";
+    let encadeamento = `(${grd}|${conteudos})+`.split("\\\\").join("\\");
+    return new RegExp(encadeamento);
+}
+var mostrarCaracteresPermitidos = () =>{
+    Swal.fire({
+        icon: 'question',
+        title: 'Caracteres Permitidos para pesquisa:',
+        text: 'Vcc, Vrc, Vbe, Vrb1, Vrb2, Vce, Vcb, Vre, Ic, Ib, Ie, Ib1, Ib2, I, Rc, Re, Rb1, Rb2, alfa, beta, Pc, Pe, Pb1, Pb2, *, /, -, +, Math, ., pow, (, ), sqrt, virgula(,)',
+        footer: 'Exemplo: Math.pow((Re*6)+2)'
+    })
 }
 /**
  * @description
@@ -61,6 +81,27 @@ var regexpGrandeza = () =>{
 var realizarExpressao = (elemento) =>{
     let expressao = elemento.value;
     let expressaoPura = elemento.value;
+    let retorno = expressao.replace(regexpValidacao(), '');
+
+    for(let i = 0; i < 10; i++){
+        retorno = retorno.replace(regexpValidacao(), '');
+    }
+    try{
+        eval(retorno);
+    }
+    catch(e){
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: `A grandeza ${elemento.id} foi feita de forma errada ou pretenciosa`
+        }).then((result) => {
+            if (result.value)
+                mostrarCaracteresPermitidos();
+        })
+          
+        return;
+    }
+    
     grandeza.forEach(item =>{        
         try {
             let variavel = expressao.match(regexpGrandeza())[0];
@@ -894,3 +935,7 @@ for(let i = 1; i < inputs.length; i++){
         inputs[i].value = inputs[i].value.split(",").join("."); 
     })
 }
+
+document.querySelector("#btn-ajuda").addEventListener("click", () =>{
+    mostrarCaracteresPermitidos();
+})

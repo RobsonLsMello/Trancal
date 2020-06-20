@@ -317,3 +317,9 @@ button{
     }
 
 }
+
+#btn-ajuda{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
