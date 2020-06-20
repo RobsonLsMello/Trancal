@@ -68,7 +68,7 @@ var regexpValidacao = () =>{
 var mostrarCaracteresPermitidos = () =>{
     Swal.fire({
         icon: 'question',
-        title: 'Caracteres Permitidos para pesquisa:',
+        title: 'Caracteres Permitidos para expressões matemáticas:',
         text: 'Vcc, Vrc, Vbe, Vrb1, Vrb2, Vce, Vcb, Vre, Ic, Ib, Ie, Ib1, Ib2, I, Rc, Re, Rb1, Rb2, alfa, beta, Pc, Pe, Pb1, Pb2, *, /, -, +, Math, ., pow, (, ), sqrt, virgula(,)',
         footer: 'Exemplo: Math.pow((Re*6)+2)'
     })
